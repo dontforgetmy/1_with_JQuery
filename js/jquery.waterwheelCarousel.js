@@ -244,12 +244,6 @@
               .show();
           });
     }
-
-    /**
-     * All the items to the left and right of the center item need to be
-     * animated to their starting positions. This function will
-     * figure out what items go where and will animate them there
-     */
     function setupStarterRotation() {
       options.startingItem = (options.startingItem === 0) ? Math.round(data.totalItems / 2) : options.startingItem;
 
